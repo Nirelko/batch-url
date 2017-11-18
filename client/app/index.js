@@ -1,7 +1,10 @@
 import React from 'react';
+import { BrowserRouter } from 'react-router-dom';
+
+import Shell from './shell';
 
 export default () => (
-  <div>
-    <span>test</span>
-  </div>
+  <BrowserRouter>
+    <Shell />
+  </BrowserRouter>
 );
