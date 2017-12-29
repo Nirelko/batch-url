@@ -5,11 +5,9 @@ import { AppContainer } from 'react-hot-loader';
 import 'roboto-fontface/css/roboto/sass/roboto-fontface-light.scss';
 import 'roboto-fontface/css/roboto/sass/roboto-fontface-regular.scss';
 import 'roboto-fontface/css/roboto/sass/roboto-fontface-medium.scss';
-import injectTapEventPlugin from 'react-tap-event-plugin';
 
 import App from './app';
-
-injectTapEventPlugin();
+import './style.css';
 
 
 const rootId = 'root';
