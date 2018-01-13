@@ -13,7 +13,7 @@ export default () => (
   <Flex column auto>
     <Header />
     {/* <Nav /> */}
-    <ReflexPaper auto>
+    <ReflexPaper flex auto>
       <Routes />
     </ReflexPaper>
     <Footer />
